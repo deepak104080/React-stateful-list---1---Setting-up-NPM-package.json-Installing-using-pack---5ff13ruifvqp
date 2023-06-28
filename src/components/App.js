@@ -56,7 +56,7 @@ const App = () => {
         </select>
         <br></br>
 
-        <div id="selected-year">{list.length > 0 ? 'Selected Year-' + year : 'No Year Selected'}</div>
+        <div id="selected-year">{list.length > 0 ? 'Selected Year-' + year : 'No year selected'}</div>
         <ul>
         {
           list && list.map((item, index) => (
